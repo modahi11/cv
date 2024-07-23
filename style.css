@@ -1,0 +1,41 @@
+/* Header styles */
+.resume-header {
+    background: linear-gradient(135deg, #2c3e50, #bdc3c7);
+    padding: 20px 0;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.resume-title {
+    color: #fff;
+    font-size: 36px;
+    margin: 0;
+    animation: fadeIn 2s ease-in-out;
+}
+
+/* Animation */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.linkedin-icon {
+    width: 50px;
+    height: 50px;
+    fill: black;
+    transition: fill 0.3s ease;
+}
+
+.linkedin-icon:hover {
+    fill: white;
+}
+.image-david{
+    border-radius: 50%;
+    width: 300px;
+}
